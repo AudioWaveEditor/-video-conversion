@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>वीडियो कन्वर्टर</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        .container { max-width: 600px; margin: 0 auto; }
+        .upload-area { 
+            border: 2px dashed #007bff; 
+            padding: 40px; 
+            text-align: center;
+            margin: 20px 0;
+        }
+        button { 
+            background: #007bff; 
+            color: white; 
+            padding: 12px 24px;
+            border: none; 
+            cursor: pointer;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>मुफ्त वीडियो कन्वर्टर</h1>
+        <div class="upload-area">
+            <input type="file" id="videoInput" accept="video/*">
+            <br><br>
+            <button onclick="uploadVideo()">वीडियो कन्वर्ट करें</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    
+    <script>
+        function uploadVideo() {
+            // यहाँ JavaScript कोड जोड़ेंगे
+            alert('वीडियो अपलोड हो गया!');
+        }
+    </script>
+</body>
+</html>
