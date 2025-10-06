@@ -1,0 +1,8 @@
+video-converter/
+├── app.py
+├── requirements.txt
+├── uploads/
+├── templates/
+│   └── index.html
+└── static/
+    └── style.css
