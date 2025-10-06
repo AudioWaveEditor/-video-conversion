@@ -1,0 +1,12 @@
+from flask import Flask, request, send_file
+import os
+
+app = Flask(__name__)
+
+@app.route('/convert', methods=['POST'])
+def convert_video():
+    # वीडियो कन्वर्जन कोड यहाँ आएगा
+    return 'Video converted successfully'
+
+if __name__ == '__main__':
+    app.run(debug=True)
